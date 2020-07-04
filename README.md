@@ -16,7 +16,7 @@ The code suggestion will be on when the `>` character is typed.
 
 - `>default`: Insert Default.
 - `>primary`: Insert Primary.
-- `primary-no-icon`: Insert Primary No-Icon.
+- `>primary-no-icon`: Insert Primary No-Icon.
 - `>success`: Insert Success.
 - `>info`: Insert Info.
 - `>warning`: Insert Warning.
