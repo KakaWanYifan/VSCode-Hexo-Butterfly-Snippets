@@ -2,7 +2,7 @@
 
 从`VSCode-Hexo-Next-Snippets`fork来的。
 
-原作是和`Hexo-Next`这个主题配套的，我进行了一些简单的修改，现在和`Hexo Butterfly`这个主题配套。
+原作是和`Hexo Next`这个主题配套的，我进行了一些简单的修改，现在和`Hexo Butterfly`这个主题配套。
 
 视频介绍：https://www.bilibili.com/video/BV1nf4y1179b/
 
