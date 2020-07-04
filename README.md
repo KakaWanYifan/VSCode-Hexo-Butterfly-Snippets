@@ -12,9 +12,9 @@
 
 ## 用法
 
-### 自动补全
+### 补全
 
-The code suggestion will be on when the `>` character is typed.
+敲入`>`，然后会有提示，自动补全。
 
 ### 功能
 
