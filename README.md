@@ -33,6 +33,8 @@ The code suggestion will be on when the `>` character is typed.
 
 如果不愿意打包，可以下载`hexo-butterfly-snippets-1.0.0.vsix`，然后手动安装。
 
+> https://github.com/KakaWanYifan/VSCode-Hexo-Butterfly-Snippets/blob/master/hexo-butterfly-snippets-1.0.0.vsix
+
 ## 打包
 
 首先需要插件`vsce`
