@@ -6,6 +6,10 @@
 
 视频介绍：https://www.bilibili.com/video/BV1nf4y1179b/
 
+已在`Visual Code`上架了，搜索`Hexo Butterfly Snippets`。
+
+已开源：https://github.com/KakaWanYifan/VSCode-Hexo-Butterfly-Snippets
+
 ## 用法
 
 ### 自动补全
@@ -29,27 +33,22 @@ The code suggestion will be on when the `>` character is typed.
 修改`/snippets/markdown.json`，然后重新打包。
 
 ## 安装
-
-没有在Visual Code上架，因为上架要开发者账号，但是可以自己手动打包安装。
-
-如果不愿意打包，可以下载`hexo-butterfly-snippets-1.0.0.vsix`，然后手动安装。
-
-> https://github.com/KakaWanYifan/VSCode-Hexo-Butterfly-Snippets/blob/master/hexo-butterfly-snippets-1.0.0.vsix
+已在`Visual Code`上架了，搜索`Hexo Butterfly Snippets`。
 
 ## 打包
 
-首先需要插件`vsce`
+clone源代码，安装插件`vsce`。
 ```
 npm i vsce -g
 ```
-打包，在项目的根目录
+在根目录，输入命令打包。
 ```
 vsce package
 ```
 
 ## 要求
 
-With VSCode Verson no lower than `1.41.0`
+`Visual Code`版本不低于 `1.41.0`
 
 ## LICENSE
 
