@@ -3,7 +3,7 @@
 	"displayName": "Hexo Butterfly Snippets",
 	"description": "Some Snippets and Command for Hexo Butterfly Theme in markdown writing",
 	"version": "1.0.0",
-	"publisher": "Kaka Wan Yifan",
+	"publisher": "KakaWanYifan",
 	"engines": {
 		"vscode": "^1.41.0"
 	},
