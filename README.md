@@ -22,7 +22,8 @@ The code suggestion will be on when the `>` character is typed.
 - `>warning`: Insert Warning.
 - `>danger`: Insert Danger.
 - `>mermaid`: Insert Mermaid.
-- `tabs_tensorflow`: Insert Tabs TensorFlow.
+- `>tabs`: Insert Tabs.
+- `>tabs_tensorflow`: Insert Tabs TensorFlow.
 
 ### 自定义功能
 修改`/snippets/markdown.json`，然后重新打包。
