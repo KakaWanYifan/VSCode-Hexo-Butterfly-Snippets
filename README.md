@@ -12,19 +12,15 @@ The code suggestion will be on when the `>` character is typed.
 
 ### 功能
 
-- `>info`: Insert Info Style Note.
-- `>default`: Insert Default Style Note.
-- `>primary`: Insert Primary Style Note.
-- `>success`: Insert Success Style Note.
-- `>danger`: Insert Danger Style Note.
-- `>warning`: Insert Warning Style Note.
-- `>quote`: Insert Quote.
-- `>info_large`: Insert Large Info Style Note.
-- `>default_large`: Insert Large Default Style Note.
-- `>primary_large`: Insert Large Primary Style Note.
-- `>success_large`: Insert Large Success Style Note.
-- `>danger_large`: Insert Large Danger Style Note.
-- `>warning_large`: Insert Large Warning Style Note.
+- `>default`: Insert Default.
+- `>primary`: Insert Primary.
+- `primary-no-icon`: Insert Primary No-Icon.
+- `>success`: Insert Success.
+- `>info`: Insert Info.
+- `>warning`: Insert Warning.
+- `>danger`: Insert Danger.
+- `>mermaid`: Insert Mermaid.
+- `tabs_tensorflow`: Insert Tabs Tensorflow.
 
 ### 自定义功能
 然后修改`/snippets/markdown.json`，然后重新打包。
