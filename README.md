@@ -25,7 +25,7 @@ The code suggestion will be on when the `>` character is typed.
 - `tabs_tensorflow`: Insert Tabs Tensorflow.
 
 ### 自定义功能
-然后修改`/snippets/markdown.json`，然后重新打包。
+修改`/snippets/markdown.json`，然后重新打包。
 
 ## 安装
 
