@@ -1,6 +1,6 @@
 # Hexo Butterfly Snippets
 
-从`VSCode-Hexo-Next-Snippets`fork来的。
+从`VSCode-Hexo-Next-Snippets` fork来的。
 
 原作是和`Hexo Next`这个主题配套的，我进行了一些简单的修改，现在和`Hexo Butterfly`这个主题配套。
 
