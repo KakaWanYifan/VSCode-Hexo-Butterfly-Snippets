@@ -1,14 +1,16 @@
-# Hexo Next Snippets
+# Hexo Butterfly Snippets
 
-This extension includes some snippets for the Next theme of Hexo Blog.
+从`VSCode-Hexo-Next-Snippets`fork来的。
 
-## Features
+原作是和`Hexo-Next`这个主题配套的，我进行了一些简单的修改，现在和`Hexo Butterfly`这个主题配套。
 
-### Smart Auto-Suggestion
+## 用法
+
+### 自动补全
 
 The code suggestion will be on when the `>` character is typed.
 
-### Powerful Snippets
+### 功能
 
 - `>info`: Insert Info Style Note.
 - `>default`: Insert Default Style Note.
@@ -24,38 +26,30 @@ The code suggestion will be on when the `>` character is typed.
 - `>danger_large`: Insert Large Danger Style Note.
 - `>warning_large`: Insert Large Warning Style Note.
 
-## Requirements
+### 自定义功能
+然后修改`/snippets/markdown.json`，然后重新打包。
+
+## 安装
+
+没有在Visual Code上架，因为上架要开发者账号，但是可以自己手动打包安装。
+
+如果不愿意打包，可以下载`hexo-butterfly-snippets-1.0.0.vsix`，然后手动安装。
+
+## 打包
+
+首先需要插件`vsce`
+```
+npm i vsce -g
+```
+打包，在项目的根目录
+```
+vsce package
+```
+
+## 要求
 
 With VSCode Verson no lower than `1.41.0`
-
-## Known Issues
-
-No known issues yet.
 
 ## LICENSE
 
 MIT LICENSE.
-
-## Homepage
-
-This project is on my github: https://github.com/JeffersonQin/VSCode-Hexo-Next-Snippets
-
-## Release Notes
-
-### 1.0.0
-
-Initial release of Hexo Next Snippets
-
-### 1.0.1
-
-Add new Snippet.
-
-### 1.0.2
-
-Bug Fix.
-
-### 1.0.3
-
-Change Style & Bug Fix.
-
-**Enjoy!**

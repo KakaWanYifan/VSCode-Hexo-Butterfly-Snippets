@@ -1,8 +1,8 @@
 {
-	"name": "hexo-next-snippets",
-	"displayName": "Hexo Next Snippets",
-	"description": "Some Snippets and Command for Hexo Next Theme in markdown writing",
-	"version": "1.0.3",
+	"name": "hexo-butterfly-snippets",
+	"displayName": "Hexo Butterfly Snippets",
+	"description": "Some Snippets and Command for Hexo Butterfly Theme in markdown writing",
+	"version": "1.0.0",
 	"publisher": "JeffersonQin",
 	"engines": {
 		"vscode": "^1.41.0"
@@ -38,8 +38,8 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/JeffersonQin/VSCode-Hexo-Next-Snippets"
+        "url": "https://github.com/KakaWanYifan/VSCode-Hexo-Butterfly-Snippets"
     },
-    "homepage": "https://github.com/JeffersonQin/VSCode-Hexo-Next-Snippets/blob/master/README.md",
-    "icon": "lib/images/next-icon.png"
+    "homepage": "https://github.com/KakaWanYifan/VSCode-Hexo-Butterfly-Snippets",
+    "icon": "lib/hexo.png"
 }

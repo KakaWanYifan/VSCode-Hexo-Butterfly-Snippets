@@ -1,95 +1,88 @@
 {
-    "Insert Info": {
-        "prefix": [">info"],
-        "body": ["<div class=\"note info\">$1</div>$0"],
-        "description": "Insert Info Style Note."
-    },
     "Insert Default": {
         "prefix": [">default"],
-        "body": ["<div class=\"note default\">$1</div>$0"],
-        "description": "Insert Default Style Note."
+        "body": [
+            "{% note default %}",
+            "$1",
+            "{% endnote %}$0"
+        ],
+        "description": "Insert Default."
     },
     "Insert Primary": {
         "prefix": [">primary"],
-        "body": ["<div class=\"note primary\">$1</div>$0"],
-        "description": "Insert Primary Style Note."
-    },
-    "Insert Success": {
-        "prefix": [">success"],
-        "body": ["<div class=\"note success\">$1</div>$0"],
-        "description": "Insert Success Style Note."
-    },
-    "Insert Warning": {
-        "prefix": [">warning"],
-        "body": ["<div class=\"note warning\">$1</div>$0"],
-        "description": "Insert Warning Style Note."
-    },
-    "Insert Danger": {
-        "prefix": [">danger"],
-        "body": ["<div class=\"note danger\">$1</div>$0"],
-        "description": "Insert Danger Style Note."
-    },
-    "Insert Quote": {
-        "prefix": [">quote"], 
         "body": [
-            "{% cq %}",
-            "$1",
-            "{% endcq %}$0"
-        ],
-        "description": "Insert Quote."
-    },
-    "Insert Large Info": {
-        "prefix": [">info_large"],
-        "body": [
-            "{% note info no-icon %}",
+            "{% note primary %}",
             "$1",
             "{% endnote %}$0"
         ],
-        "description": "Insert Large Info Style Note."
+        "description": "Insert Primary."
     },
-    "Insert Large default": {
-        "prefix": [">default_large"],
-        "body": [
-            "{% note default no-icon %}",
-            "$1",
-            "{% endnote %}$0"
-        ],
-        "description": "Insert Large default Style Note."
-    },
-    "Insert Large primary": {
-        "prefix": [">primary_large"],
+    "Insert Primary No-Icon": {
+        "prefix": [">primary-no-icon"],
         "body": [
             "{% note primary no-icon %}",
             "$1",
             "{% endnote %}$0"
         ],
-        "description": "Insert Large primary Style Note."
+        "description": "Insert Primary No-Icon."
     },
-    "Insert Large success": {
-        "prefix": [">success_large"],
+    "Insert Success": {
+        "prefix": [">success"],
         "body": [
-            "{% note success no-icon %}",
+            "{% note success %}",
             "$1",
             "{% endnote %}$0"
         ],
-        "description": "Insert Large success Style Note."
+        "description": "Insert Success."
     },
-    "Insert Large warning": {
-        "prefix": [">warning_large"],
+    "Insert Info": {
+        "prefix": [">info"],
         "body": [
-            "{% note warning no-icon %}",
+            "{% note info %}",
             "$1",
             "{% endnote %}$0"
         ],
-        "description": "Insert Large warning Style Note."
+        "description": "Insert Info."
     },
-    "Insert Large danger": {
-        "prefix": [">danger_large"],
+    "Insert Warning": {
+        "prefix": [">warning"],
         "body": [
-            "{% note danger no-icon %}",
+            "{% note warning %}",
             "$1",
             "{% endnote %}$0"
         ],
-        "description": "Insert Large danger Style Note."
+        "description": "Insert Warning."
+    },
+    "Insert Danger": {
+        "prefix": [">danger"],
+        "body": [
+            "{% note danger %}",
+            "$1",
+            "{% endnote %}$0"
+        ],
+        "description": "Insert Danger."
+    },
+    "Insert Mermaid": {
+        "prefix": [">mermaid"], 
+        "body": [
+            "{% mermaid %}",
+            "$1",
+            "{% endmermaid %}$0"
+        ],
+        "description": "Insert Mermaid."
+    },
+    "Insert Tabs-Tensorflow": {
+        "prefix": [">tabs_tensorflow"],
+        "body": [
+            "{% tabs UUID %}",
+            "<!-- tab 1.X@iconfont icon-tensorflow-v1 -->",
+            "$1",
+            "<!-- endtab -->",
+            "<!-- tab 2.X@iconfont icon-tensorflow-v2 -->",
+            "$1",
+            "<!-- endtab -->",
+            "{% endtabs %}$0"
+        ],
+        "description": "Insert Tabs Tensorflow."
     }
 }
