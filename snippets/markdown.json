@@ -1,103 +1,107 @@
 {
-    "Insert Default": {
-        "prefix": [">default"],
-        "body": [
-            "{% note default %}",
-            "$1",
-            "{% endnote %}$0"
-        ],
-        "description": "Insert Default."
-    },
-    "Insert Primary": {
-        "prefix": [">primary"],
-        "body": [
-            "{% note primary %}",
-            "$1",
-            "{% endnote %}$0"
-        ],
-        "description": "Insert Primary."
-    },
-    "Insert Primary No-Icon": {
-        "prefix": [">primary-no-icon"],
-        "body": [
-            "{% note primary no-icon %}",
-            "$1",
-            "{% endnote %}$0"
-        ],
-        "description": "Insert Primary No-Icon."
-    },
-    "Insert Success": {
-        "prefix": [">success"],
-        "body": [
-            "{% note success %}",
-            "$1",
-            "{% endnote %}$0"
-        ],
-        "description": "Insert Success."
-    },
-    "Insert Info": {
-        "prefix": [">info"],
-        "body": [
-            "{% note info %}",
-            "$1",
-            "{% endnote %}$0"
-        ],
-        "description": "Insert Info."
-    },
-    "Insert Warning": {
-        "prefix": [">warning"],
-        "body": [
-            "{% note warning %}",
-            "$1",
-            "{% endnote %}$0"
-        ],
-        "description": "Insert Warning."
-    },
-    "Insert Danger": {
-        "prefix": [">danger"],
-        "body": [
-            "{% note danger %}",
-            "$1",
-            "{% endnote %}$0"
-        ],
-        "description": "Insert Danger."
-    },
-    "Insert Mermaid": {
-        "prefix": [">mermaid"], 
-        "body": [
-            "{% mermaid %}",
-            "$1",
-            "{% endmermaid %}$0"
-        ],
-        "description": "Insert Mermaid."
-    },
-    
-    "Insert Tabs": {
-        "prefix": [">tabs"],
-        "body": [
-            "{% tabs UUID %}",
-            "<!-- tab -->",
-            "$1",
-            "<!-- endtab -->",
-            "<!-- tab -->",
-            "$1",
-            "<!-- endtab -->",
-            "{% endtabs %}$0"
-        ],
-        "description": "Insert Tabs Tensorflow."
-    },
-    "Insert Tabs-Tensorflow": {
-        "prefix": [">tabs_tensorflow"],
-        "body": [
-            "{% tabs UUID %}",
-            "<!-- tab 1.X@iconfont icon-tensorflow-v1 -->",
-            "$1",
-            "<!-- endtab -->",
-            "<!-- tab 2.X@iconfont icon-tensorflow-v2 -->",
-            "$1",
-            "<!-- endtab -->",
-            "{% endtabs %}$0"
-        ],
-        "description": "Insert Tabs Tensorflow."
-    }
+  "Insert Note Default": {
+    "prefix": [">default"],
+    "body": ["{% note default %}", "$1", "{% endnote %}$0"],
+    "description": "Insert Note Default."
+  },
+  "Insert Note Primary": {
+    "prefix": [">primary"],
+    "body": ["{% note primary %}", "$1", "{% endnote %}$0"],
+    "description": "Insert Note Primary."
+  },
+  "Insert Note Primary No-Icon": {
+    "prefix": [">primary-no-icon"],
+    "body": ["{% note primary no-icon %}", "$1", "{% endnote %}$0"],
+    "description": "Insert Note Primary No-Icon."
+  },
+  "Insert Note Success": {
+    "prefix": [">success"],
+    "body": ["{% note success %}", "$1", "{% endnote %}$0"],
+    "description": "Insert Note Success."
+  },
+  "Insert Note Info": {
+    "prefix": [">info"],
+    "body": ["{% note info %}", "$1", "{% endnote %}$0"],
+    "description": "Insert Note Info."
+  },
+  "Insert Note Warning": {
+    "prefix": [">warning"],
+    "body": ["{% note warning %}", "$1", "{% endnote %}$0"],
+    "description": "Insert Note Warning."
+  },
+  "Insert Note Danger": {
+    "prefix": [">danger"],
+    "body": ["{% note danger %}", "$1", "{% endnote %}$0"],
+    "description": "Insert Note Danger."
+  },
+  "Insert Mermaid": {
+    "prefix": [">mermaid"],
+    "body": ["{% mermaid %}", "$1", "{% endmermaid %}$0"],
+    "description": "Insert Mermaid."
+  },
+
+  "Insert Tabs": {
+    "prefix": [">tabs"],
+    "body": [
+      "{% tabs UUID %}",
+      "<!-- tab -->",
+      "$1",
+      "<!-- endtab -->",
+      "<!-- tab -->",
+      "$1",
+      "<!-- endtab -->",
+      "{% endtabs %}$0"
+    ],
+    "description": "Insert Tabs Tensorflow."
+  },
+  "Insert Tabs-Tensorflow": {
+    "prefix": [">tabs_tensorflow"],
+    "body": [
+      "{% tabs UUID %}",
+      "<!-- tab 1.X@iconfont icon-tensorflow-v1 -->",
+      "$1",
+      "<!-- endtab -->",
+      "<!-- tab 2.X@iconfont icon-tensorflow-v2 -->",
+      "$1",
+      "<!-- endtab -->",
+      "{% endtabs %}$0"
+    ],
+    "description": "Insert Tabs Tensorflow."
+  },
+  "Insert Gallery Group": {
+    "prefix": [">gallerygroup"],
+    "body": [
+      "<div class=\"gallery-group-main\"",
+      "{% galleryGroup '壁纸' '收藏的一些壁纸' '/Gallery/wallpaper' img-url %}",
+      "{% galleryGroup name desc link img-url %}",
+      "{% galleryGroup name desc link img-url %}",
+      "</div>$0"
+    ],
+    "description": "Insert Gallery Group."
+  },
+  "Insert Gallery": {
+    "prefix": [">gallery"],
+    "body": ["{% gallery %}", "$1", "{% endgallery %}"],
+    "description": "Insert Gallery."
+  },
+  "Insert inline tag-hide": {
+    "prefix": [">inline"],
+    "body": ["{% hideInline content,display,bg,color %}"],
+    "description": "Insert Inline tag-hide."
+  },
+  "Insert block tag-hide": {
+    "prefix": [">block"],
+    "body": ["{% hideBlock display,bg,color %}", "$1", "{% endhideBlock %}"],
+    "description": "Insert Block tag-hide."
+  },
+  "Insert toggle tag-hide": {
+    "prefix": [">toggle"],
+    "body": ["{% hideToggle display,bg,color %}", "$1", "{% endhideToggle %}"],
+    "description": "Insert Toggle tag-hide."
+  },
+  "Insert Button": {
+    "prefix": [">btn"],
+    "body": ["{btn [url],[text],[icon] [style] [layout] [position] [size] %}"],
+    "description": "Insert Button."
+  }
 }
