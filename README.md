@@ -28,9 +28,6 @@
 - `>mermaid`: Insert Mermaid.
 - `>tabs`: Insert Tabs.
 - `>tabs_tensorflow`: Insert Tabs TensorFlow.
-
-> 以上是原作者的,以下是我自己添加的
-
 - `>gallerygroup`: Insert Gallery Group.
 - `>gallery`: Insert Gallery.
 - `>inline`: Insert Inline tag-hide.
