@@ -99,5 +99,19 @@
             "{% endtabs %}$0"
         ],
         "description": "Insert Tabs Tensorflow."
+    },
+    "Insert Tabs-Java-Python": {
+        "prefix": [">tabs_tensorflow"],
+        "body": [
+            "{% tabs UUID %}",
+            "<!-- tab Java -->",
+            "$1",
+            "<!-- endtab -->",
+            "<!-- tab Python -->",
+            "$1",
+            "<!-- endtab -->",
+            "{% endtabs %}$0"
+        ],
+        "description": "Insert Tabs Java Python."
     }
 }
