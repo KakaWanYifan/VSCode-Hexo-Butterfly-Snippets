@@ -101,7 +101,7 @@
         "description": "Insert Tabs Tensorflow."
     },
     "Insert Tabs-Java-Python": {
-        "prefix": [">tabs_tensorflow"],
+        "prefix": [">tabs_java_python"],
         "body": [
             "{% tabs UUID %}",
             "<!-- tab Java -->",

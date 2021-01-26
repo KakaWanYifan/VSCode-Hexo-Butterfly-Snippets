@@ -18,16 +18,17 @@
 
 ### 功能
 
-- `>default`: Insert Default.
-- `>primary`: Insert Primary.
-- `>primary-no-icon`: Insert Primary No-Icon.
-- `>success`: Insert Success.
-- `>info`: Insert Info.
-- `>warning`: Insert Warning.
-- `>danger`: Insert Danger.
-- `>mermaid`: Insert Mermaid.
-- `>tabs`: Insert Tabs.
-- `>tabs_tensorflow`: Insert Tabs TensorFlow.
+- `>default`: Insert Default Note.
+- `>primary`: Insert Primary Note.
+- `>primary-no-icon`: Insert Primary No-Icon Note.
+- `>success`: Insert Success Note.
+- `>info`: Insert Info Note.
+- `>warning`: Insert Warning Note.
+- `>danger`: Insert Danger Note.
+- `>mermaid`: Insert Mermaid Note.
+- `>tabs`: Insert Tabs Note.
+- `>tabs_tensorflow`: Insert Tabs TensorFlow Note.
+- `>tabs_java_python`: Insert Tabs Java-Python Note.
 
 ### 自定义功能
 修改`/snippets/markdown.json`，然后重新打包。
