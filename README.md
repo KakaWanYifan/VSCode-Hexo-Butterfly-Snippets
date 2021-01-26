@@ -54,26 +54,3 @@ vsce package
 ## LICENSE
 
 MIT LICENSE.
-
-{% tabs UUID %}
-<!-- tab Java -->
-示例代码：
-``` Java
-
-```
-运行结果：
-```
-
-```
-<!-- endtab -->
-<!-- tab Python -->
-示例代码：
-``` Python
-
-```
-运行结果：
-```
-
-```
-<!-- endtab -->
-{% endtabs %}
