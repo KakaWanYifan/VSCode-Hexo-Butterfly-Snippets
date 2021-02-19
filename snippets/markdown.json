@@ -127,5 +127,33 @@
             "{% endtabs %}$0"
         ],
         "description": "Insert Tabs Java Python."
+    },
+    "Insert Python": {
+        "prefix": [">python"],
+        "body": [
+            "示例代码：",
+            "``` Python",
+            "$1",
+            "```",
+            "运行结果：",
+            "```",
+            "$2",
+            "```"
+        ],
+        "description": "Insert Python."
+    },
+    "Insert Java": {
+        "prefix": [">java"],
+        "body": [
+            "示例代码：",
+            "``` Java",
+            "$1",
+            "```",
+            "运行结果：",
+            "```",
+            "$2",
+            "```"
+        ],
+        "description": "Insert Java."
     }
 }
