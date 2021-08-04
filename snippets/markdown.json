@@ -155,5 +155,12 @@
             "```"
         ],
         "description": "Insert Java."
+    },
+    "Insert Translate": {
+        "prefix": [">translate"],
+        "body": [
+            "> **译者注**：$1"
+        ],
+        "description": "Insert Translate."
     }
 }

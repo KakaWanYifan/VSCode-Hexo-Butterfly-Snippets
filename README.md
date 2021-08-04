@@ -29,8 +29,9 @@
 - `>tabs`: Insert Tabs Note.
 - `>tabs_tensorflow`: Insert Tabs TensorFlow Note.
 - `>tabs_java_python`: Insert Tabs Java-Python Note.
-- `>python`：Insert Python formula
-- `>java`：Insert Python formula
+- `>python`：Insert Python formula.
+- `>java`：Insert Python formula.
+- `>translate`：Insert Translate.
 
 ### 自定义功能
 修改`/snippets/markdown.json`，然后重新打包。
