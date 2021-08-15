@@ -51,6 +51,10 @@ npm i vsce -g
 vsce package
 ```
 
+## 发布
+VSCode更新了发布方案，现在不能通过命令发布了，要通过网页长传。
+https://marketplace.visualstudio.com/manage/publishers/KakaWanYifan
+
 ## 要求
 
 `Visual Code`版本不低于 `1.41.0`
