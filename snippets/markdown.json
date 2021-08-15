@@ -162,5 +162,12 @@
             "> **译者注**：$1"
         ],
         "description": "Insert Translate."
+    },
+    "Insert &emsp;": {
+        "prefix": [">e"],
+        "body": [
+            "&emsp;$1"
+        ],
+        "description": "Insert &emsp;."
     }
 }

@@ -32,6 +32,7 @@
 - `>python`：Insert Python formula.
 - `>java`：Insert Python formula.
 - `>translate`：Insert Translate.
+- `>e`：Insert \&emsp;
 
 ### 自定义功能
 修改`/snippets/markdown.json`，然后重新打包。
