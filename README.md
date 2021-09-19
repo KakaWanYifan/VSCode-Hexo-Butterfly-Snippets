@@ -33,6 +33,7 @@
 - `>java`：Insert Python formula.
 - `>translate`：Insert Translate.
 - `>e`：Insert \&emsp;
+- `>sql`：Insert SQL formula.
 
 ### 自定义功能
 修改`/snippets/markdown.json`，然后重新打包。
@@ -52,7 +53,7 @@ vsce package
 ```
 
 ## 发布
-VSCode更新了发布方案，现在不能通过命令发布了，要通过网页长传。
+VSCode更新了发布方案，现在不能通过命令发布了，要通过网页上传。
 https://marketplace.visualstudio.com/manage/publishers/KakaWanYifan
 
 ## 要求

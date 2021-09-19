@@ -169,5 +169,19 @@
             "&emsp;$1"
         ],
         "description": "Insert &emsp;."
+    },
+    "Insert SQL;": {
+        "prefix": [">sql"],
+        "body": [
+            "示例代码：",
+            "``` SQL",
+            "$1",
+            "```",
+            "运行结果：",
+            "```",
+            "$2",
+            "```"
+        ],
+        "description": "Insert SQL."
     }
 }
