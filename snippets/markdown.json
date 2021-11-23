@@ -164,7 +164,7 @@
         "description": "Insert Translate."
     },
     "Insert &emsp;": {
-        "prefix": [">e"],
+        "prefix": [">emsp"],
         "body": [
             "&emsp;$1"
         ],
@@ -183,5 +183,33 @@
             "```"
         ],
         "description": "Insert SQL."
+    },
+    "Insert JavaScript;": {
+        "prefix": [">js"],
+        "body": [
+            "示例代码：",
+            "``` JavaScript",
+            "$1",
+            "```",
+            "运行结果：",
+            "```",
+            "$2",
+            "```"
+        ],
+        "description": "Insert JavaScript."
+    },
+    "Insert Shell;": {
+        "prefix": [">shell"],
+        "body": [
+            "示例代码：",
+            "``` Shell",
+            "$1",
+            "```",
+            "运行结果：",
+            "```",
+            "$2",
+            "```"
+        ],
+        "description": "Insert Shell."
     }
 }
