@@ -211,5 +211,12 @@
             "```"
         ],
         "description": "Insert Shell."
+    },
+    "Insert TB;": {
+        "prefix": [">tb"],
+        "body": [
+            ":target=_blank$1"
+        ],
+        "description": "Insert TB."
     }
 }
