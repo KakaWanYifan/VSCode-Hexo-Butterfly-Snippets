@@ -36,7 +36,7 @@
 - `>sql`：Insert SQL formula.
 - `>js`：Insert JavaScript formula.
 - `>shell`：Insert Shell formula.
-- `>tb`：Insert TB.
+- `>refer`：Insert Refer.
 
 ### 自定义功能
 修改`/snippets/markdown.json`，然后重新打包。

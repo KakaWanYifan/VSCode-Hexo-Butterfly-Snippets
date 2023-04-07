@@ -212,11 +212,11 @@
         ],
         "description": "Insert Shell."
     },
-    "Insert TB;": {
-        "prefix": [">tb"],
+    "Insert Refer;": {
+        "prefix": [">refer"],
         "body": [
-            ":target=_blank$1"
+            "[《$1》]($2/:target=_blank)"
         ],
-        "description": "Insert TB."
+        "description": "Insert Refer."
     }
 }
