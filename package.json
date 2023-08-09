@@ -2,7 +2,7 @@
 	"name": "hexo-butterfly-snippets",
 	"displayName": "Hexo Butterfly Snippets",
 	"description": "Some Snippets and Command for Hexo Butterfly Theme in markdown writing",
-	"version": "1.0.11",
+	"version": "1.0.12",
 	"publisher": "KakaWanYifan",
 	"engines": {
 		"vscode": "^1.41.0"

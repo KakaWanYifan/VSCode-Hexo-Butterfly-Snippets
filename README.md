@@ -37,6 +37,8 @@
 - `>js`：Insert JavaScript formula.
 - `>shell`：Insert Shell formula.
 - `>refer`：Insert Refer.
+- `>iframe`：Insert iframe.
+- `>cpp`：Insert Refer.
 
 ### 自定义功能
 修改`/snippets/markdown.json`，然后重新打包。

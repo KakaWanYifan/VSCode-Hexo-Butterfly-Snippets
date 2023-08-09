@@ -236,5 +236,19 @@
             "</div>"
         ],
         "description": "Insert iframe."
+    },
+    "Insert CPP;": {
+        "prefix": [">cpp"],
+        "body": [
+            "示例代码：",
+            "``` C++",
+            "$1",
+            "```",
+            "运行结果：",
+            "```",
+            "$2",
+            "```"
+        ],
+        "description": "Insert CPP."
     }
 }
