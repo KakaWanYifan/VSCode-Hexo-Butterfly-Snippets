@@ -250,5 +250,19 @@
             "```"
         ],
         "description": "Insert CPP."
+    },
+    "Insert CSharp;": {
+        "prefix": [">csharp"],
+        "body": [
+            "示例代码：",
+            "``` C#",
+            "$1",
+            "```",
+            "运行结果：",
+            "```",
+            "$2",
+            "```"
+        ],
+        "description": "Insert CSharp."
     }
 }

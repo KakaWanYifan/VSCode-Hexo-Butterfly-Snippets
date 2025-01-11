@@ -38,7 +38,8 @@
 - `>shell`：Insert Shell formula.
 - `>refer`：Insert Refer.
 - `>iframe`：Insert iframe.
-- `>cpp`：Insert Refer.
+- `>cpp`：Insert CPP.
+- `>csharp`：Insert C#.
 
 ### 自定义功能
 修改`/snippets/markdown.json`，然后重新打包。
