@@ -39,7 +39,7 @@
 - `>refer`：Insert Refer.
 - `>iframe`：Insert iframe.
 - `>cpp`：Insert CPP.
-- `>csharp`：Insert C#.
+- `>csharp`：Insert CSharp.
 
 ### 自定义功能
 修改`/snippets/markdown.json`，然后重新打包。
